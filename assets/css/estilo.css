@@ -51,11 +51,6 @@
 .tamanio-tarjeta {
   height: 300px; }
 
-.zoom-tarjeta {
-  transition: 1s; }
-  .zoom-tarjeta:hover {
-    transform: scale(1.1); }
-
 .fondoindex {
   background-color: rgba(241, 212, 170, 0.83); }
   .fondoindex .titulo-index {
@@ -74,6 +69,41 @@
   .fondoindex .descripcionIndex {
     color: rgba(149, 64, 35, 0.589);
     font-family: "Dosis", sans-serif; }
+
+@media (min-width: 768px) {
+  .btn-index {
+    width: 30%;
+    height: 55px;
+    background-color: #f8e5bf;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(149, 64, 35, 0.589); }
+  .fondo-tarjeta {
+    background-color: #fff; }
+  .tamanio-tarjeta {
+    height: 300px; }
+  .zoom-tarjeta {
+    transition: 1s; }
+    .zoom-tarjeta:hover {
+      transform: scale(1.1); }
+  .fondoindex {
+    background-color: rgba(241, 212, 170, 0.83); }
+    .fondoindex .titulo-index {
+      color: rgba(149, 64, 35, 0.589);
+      text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+      font-size: 25px;
+      margin: 0%;
+      font-family: "Dosis", sans-serif; }
+    .fondoindex .parrafo-index {
+      color: rgba(149, 64, 35, 0.589);
+      text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+      font-size: 20px;
+      padding-top: 5%;
+      margin: 0%;
+      font-family: "Dosis", sans-serif; }
+    .fondoindex .descripcionIndex {
+      color: rgba(149, 64, 35, 0.589);
+      font-family: "Dosis", sans-serif; } }
 
 .fondo-footer {
   background-color: #5d0f0f;
