@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+.navbar {
+  margin: 0%;
+  padding: 0; }
+  .navbar .navegador-dimensiones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+    background-color: #5d0f0f;
+    font-weight: 600; }
+    .navbar .navegador-dimensiones .navbar-collapse {
+      padding-left: 30%; }
+    .navbar .navegador-dimensiones .nav-link {
+      color: #f0b768;
+      font-size: 18px;
+      font-weight: 400; }
+      .navbar .navegador-dimensiones .nav-link:hover {
+        color: #ecdfb9; }
+
+.PortadaInicio {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .PortadaInicio .ImagenPortadaInicio {
+    margin: 0%; }
+  .PortadaInicio .frasePortadaInicio {
+    width: 100%;
+    height: 40px;
+    background-color: #f8e5bf;
+    font-size: 18px;
+    color: #f0b768;
+    text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46; }
+
+.btn-index {
+  width: 30%;
+  height: 55px;
+  background-color: #f8e5bf;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(149, 64, 35, 0.589); }
+
+.fondo-tarjeta {
+  background-color: #fff; }
+
+.tamanio-tarjeta {
+  height: 300px; }
+
+.zoom-tarjeta {
+  transition: 1s; }
+  .zoom-tarjeta:hover {
+    transform: scale(1.1); }
+
+.fondoindex {
+  background-color: rgba(241, 212, 170, 0.83); }
+  .fondoindex .titulo-index {
+    color: rgba(149, 64, 35, 0.589);
+    text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+    font-size: 25px;
+    margin: 0%;
+    font-family: "Dosis", sans-serif; }
+  .fondoindex .parrafo-index {
+    color: rgba(149, 64, 35, 0.589);
+    text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+    font-size: 20px;
+    padding-top: 5%;
+    margin: 0%;
+    font-family: "Dosis", sans-serif; }
+  .fondoindex .descripcionIndex {
+    color: rgba(149, 64, 35, 0.589);
+    font-family: "Dosis", sans-serif; }
+
+.fondo-footer {
+  background-color: #5d0f0f;
+  padding: 1%; }
+
+.texto-footer {
+  color: #f0b768; }
+
+.productos-presentacion {
+  background-color: #5d0f0f;
+  font-family: "Dosis", sans-serif; }
+  .productos-presentacion .productos-presentacion-titulo {
+    color: #f0b768;
+    font-weight: 800; }
+  .productos-presentacion .productos-presentacion-descripcion {
+    color: rgba(241, 212, 170, 0.83); }
+
+.Tarjetas-productos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(241, 212, 170, 0.83); }
+  .Tarjetas-productos .tarjeta-producto-individual {
+    width: 80%;
+    margin: 5%;
+    background-color: rgba(190, 154, 103, 0.666);
+    font-family: "Dosis", sans-serif; }
+    .Tarjetas-productos .tarjeta-producto-individual .tarjeta-producto-individual-titulo {
+      color: rgba(149, 64, 35, 0.589);
+      text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+      font-size: 35px;
+      font-weight: 800; }
+    .Tarjetas-productos .tarjeta-producto-individual .tarjeta-producto-individual-descripcion {
+      color: rgba(149, 64, 35, 0.589);
+      font-size: 20px; }
+    .Tarjetas-productos .tarjeta-producto-individual .tarjeta-producto-individual-botongrupo {
+      padding: 5%;
+      color: rgba(149, 64, 35, 0.589); }
+      .Tarjetas-productos .tarjeta-producto-individual .tarjeta-producto-individual-botongrupo .tarjeta-producto-individual-boton {
+        color: rgba(149, 64, 35, 0.589);
+        margin: 2%;
+        padding: 2%;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 4px;
+        border-color: #5d0f0f; }
+        .Tarjetas-productos .tarjeta-producto-individual .tarjeta-producto-individual-botongrupo .tarjeta-producto-individual-boton:hover {
+          background-color: #5d0f0f;
+          color: rgba(241, 212, 170, 0.83); }
+
+@media (min-width: 768px) {
+  .Tarjetas-productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(241, 212, 170, 0.83); }
+    .Tarjetas-productos .tarjeta-producto-individual {
+      width: 35%;
+      margin: 5%;
+      background-color: rgba(190, 154, 103, 0.666);
+      font-family: "Dosis", sans-serif; }
+      .Tarjetas-productos .tarjeta-producto-individual .tarjeta-producto-individual-titulo {
+        color: rgba(149, 64, 35, 0.589);
+        text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+        font-size: 35px;
+        font-weight: 800; }
+      .Tarjetas-productos .tarjeta-producto-individual .tarjeta-producto-individual-descripcion {
+        color: rgba(149, 64, 35, 0.589);
+        font-size: 20px; }
+      .Tarjetas-productos .tarjeta-producto-individual .tarjeta-producto-individual-botongrupo {
+        padding: 5%;
+        color: rgba(149, 64, 35, 0.589); }
+        .Tarjetas-productos .tarjeta-producto-individual .tarjeta-producto-individual-botongrupo .tarjeta-producto-individual-boton {
+          color: rgba(149, 64, 35, 0.589);
+          margin: 2%;
+          padding: 2%;
+          font-size: 20px;
+          font-weight: 800;
+          border-radius: 4px;
+          border-color: #5d0f0f; }
+          .Tarjetas-productos .tarjeta-producto-individual .tarjeta-producto-individual-botongrupo .tarjeta-producto-individual-boton:hover {
+            background-color: #5d0f0f;
+            color: rgba(241, 212, 170, 0.83); }
+      .Tarjetas-productos .tarjeta-producto-individual .zoom {
+        transition: 1s; }
+        .Tarjetas-productos .tarjeta-producto-individual .zoom:hover {
+          transform: scale(1.4); } }
+
+.mayoristaformulario {
+  margin: 0%;
+  padding: 5%;
+  background-color: rgba(241, 212, 170, 0.83);
+  font-family: "Dosis", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .mayoristaformulario .formulario {
+    color: rgba(149, 64, 35, 0.589);
+    text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+    font-size: 40px; }
+  .mayoristaformulario .tabla-carga {
+    width: 60%;
+    color: #5d0f0f;
+    background-color: rgba(190, 154, 103, 0.666);
+    padding: 5%;
+    margin: 2%; }
+    .mayoristaformulario .tabla-carga .tabla-carga-datos {
+      color: #5d0f0f;
+      text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+      font-size: 20px; }
+  .mayoristaformulario .mediosdepago {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(190, 154, 103, 0.666);
+    align-items: center;
+    align-content: center; }
+    .mayoristaformulario .mediosdepago .mediosdepago-titulo {
+      color: #5d0f0f;
+      text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+      font-size: 20px; }
+  .mayoristaformulario .eleccionproductos {
+    width: 60%;
+    background-color: rgba(190, 154, 103, 0.666);
+    padding: 5%;
+    margin: 2%; }
+    .mayoristaformulario .eleccionproductos .eleccionproductos-titulo {
+      color: #5d0f0f;
+      text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+      font-size: 20px; }
+    .mayoristaformulario .eleccionproductos .eleccionproductos-descripcion {
+      width: 90%;
+      color: #5d0f0f;
+      font-size: 15px; }
+    .mayoristaformulario .eleccionproductos .btn-mayorista {
+      color: rgba(149, 64, 35, 0.589);
+      margin: 2%;
+      padding: 2%;
+      font-size: 20px;
+      font-weight: 800;
+      border-radius: 4px;
+      border-color: #5d0f0f; }
+      .mayoristaformulario .eleccionproductos .btn-mayorista:hover {
+        background-color: #5d0f0f;
+        color: rgba(241, 212, 170, 0.83); }
+
+@media (min-width: 768px) {
+  .mayoristaformulario {
+    margin: 0%;
+    padding: 5%;
+    background-color: rgba(241, 212, 170, 0.83);
+    font-family: "Dosis", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .mayoristaformulario .formulario {
+      color: rgba(149, 64, 35, 0.589);
+      text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+      font-size: 40px; }
+    .mayoristaformulario .tabla-carga {
+      width: 60%;
+      color: #5d0f0f;
+      background-color: rgba(190, 154, 103, 0.666);
+      padding: 5%;
+      margin: 2%; }
+      .mayoristaformulario .tabla-carga .tabla-carga-datos {
+        color: #5d0f0f;
+        text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+        font-size: 35px; }
+    .mayoristaformulario .mediosdepago {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      background-color: rgba(190, 154, 103, 0.666);
+      align-items: center;
+      align-content: center; }
+      .mayoristaformulario .mediosdepago .mediosdepago-titulo {
+        color: #5d0f0f;
+        text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+        font-size: 35px; }
+    .mayoristaformulario .eleccionproductos {
+      width: 60%;
+      background-color: rgba(190, 154, 103, 0.666);
+      padding: 5%;
+      margin: 2%; }
+      .mayoristaformulario .eleccionproductos .eleccionproductos-titulo {
+        color: #5d0f0f;
+        text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+        font-size: 30px; }
+      .mayoristaformulario .eleccionproductos .eleccionproductos-descripcion {
+        width: 90%;
+        color: #5d0f0f; }
+      .mayoristaformulario .eleccionproductos .btn-mayorista {
+        color: rgba(149, 64, 35, 0.589);
+        margin: 2%;
+        padding: 2%;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 4px;
+        border-color: #5d0f0f; }
+        .mayoristaformulario .eleccionproductos .btn-mayorista:hover {
+          background-color: #5d0f0f;
+          color: rgba(241, 212, 170, 0.83); } }
+
+.contacto {
+  background-color: rgba(241, 212, 170, 0.83);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  font-family: "Dosis", sans-serif; }
+  .contacto .contacto-bienvenida {
+    font-family: "Dosis", sans-serif;
+    padding: 5%;
+    color: rgba(149, 64, 35, 0.589);
+    text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+    font-size: 10px; }
+  .contacto .tarjeta-contacto {
+    margin: 2%;
+    font-family: "Dosis", sans-serif;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding: 10%;
+    background-color: rgba(190, 154, 103, 0.666); }
+    .contacto .tarjeta-contacto .tarjeta-contacto-titulo {
+      color: #5d0f0f;
+      text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+      font-size: 25px;
+      margin: 0%; }
+    .contacto .tarjeta-contacto .tarjeta-contacto-descripcion {
+      padding-top: 2%;
+      font-size: 15px;
+      color: #5d0f0f; }
+  .contacto .btn-contacto {
+    color: rgba(149, 64, 35, 0.589);
+    margin: 2%;
+    padding: 2%;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 4px;
+    border-color: #5d0f0f; }
+    .contacto .btn-contacto:hover {
+      background-color: #5d0f0f;
+      color: rgba(241, 212, 170, 0.83); }
+  .contacto .tarjeta-mapa {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgba(190, 154, 103, 0.666);
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding: 5%; }
+    .contacto .tarjeta-mapa .tarjeta-mapa-titulo {
+      color: #5d0f0f;
+      text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+      font-size: 25px;
+      padding-bottom: 1%;
+      font-family: "Dosis", sans-serif; }
+    .contacto .tarjeta-mapa .tarjeta-mapa-descripcion {
+      font-size: 15px;
+      color: #5d0f0f;
+      font-family: "Dosis", sans-serif; }
+    .contacto .tarjeta-mapa .mapa-contacto {
+      width: 100%; }
+
+@media (min-width: 768px) {
+  .contacto {
+    background-color: rgba(241, 212, 170, 0.83);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: "Dosis", sans-serif; }
+    .contacto .contacto-bienvenida {
+      font-family: "Dosis", sans-serif;
+      padding: 5%;
+      color: rgba(149, 64, 35, 0.589);
+      text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+      font-size: 10px; }
+    .contacto .tarjeta-contacto {
+      margin: 2%;
+      font-family: "Dosis", sans-serif;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 10%;
+      margin-bottom: 5%;
+      padding: 10%;
+      background-color: rgba(190, 154, 103, 0.666); }
+      .contacto .tarjeta-contacto .tarjeta-contacto-titulo {
+        color: #5d0f0f;
+        text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+        font-size: 30px;
+        margin: 0%; }
+      .contacto .tarjeta-contacto .tarjeta-contacto-descripcion {
+        padding-top: 2%;
+        font-size: 15px;
+        color: #5d0f0f; }
+    .contacto .btn-contacto {
+      width: 60%;
+      height: 40px;
+      background-color: #f0b768;
+      font-size: 15px;
+      font-weight: 700;
+      color: #5b4237; }
+    .contacto .tarjeta-mapa {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      background-color: rgba(190, 154, 103, 0.666);
+      margin-left: 10%;
+      margin-bottom: 2%;
+      padding: 5%; }
+      .contacto .tarjeta-mapa .tarjeta-mapa-titulo {
+        color: #5d0f0f;
+        text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px #d29255, 0 0 5px #e39c46;
+        font-size: 30px;
+        padding-bottom: 1%;
+        font-family: "Dosis", sans-serif; }
+      .contacto .tarjeta-mapa .tarjeta-mapa-descripcion {
+        font-size: 15px;
+        color: #5d0f0f;
+        font-family: "Dosis", sans-serif; }
+      .contacto .tarjeta-mapa .mapa-contacto {
+        width: 100%; } }
+
+.nosotros-introduccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(241, 212, 170, 0.83);
+  padding: 5%; }
+  .nosotros-introduccion .nosotros-parrafo {
+    text-align: center;
+    width: 80%;
+    color: #5d0f0f;
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    padding: 2%; }
+  .nosotros-introduccion .videosnotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%; }
+    .nosotros-introduccion .videosnotros .nosotros-video {
+      width: 80%; }
+  .nosotros-introduccion .nosotros-img {
+    width: 60%; }

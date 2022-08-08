@@ -1,0 +1,146 @@
+.productos-presentacion{
+    background-color:$colorFondoNavbar;
+    font-family: $tipoletra;
+    .productos-presentacion-titulo{
+        color: $colorLetraNavbar;
+        font-weight: 800;
+       
+    }
+
+    .productos-presentacion-descripcion{
+        color:$colorindexfondo;
+    }
+
+}
+
+
+
+
+
+.Tarjetas-productos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:$colorindexfondo;
+
+    .tarjeta-producto-individual{
+
+        width: 80%;
+        margin: 5%;
+        background-color:$colorfondotarjetaproducto;
+        font-family: $tipoletra;
+    
+     
+    
+        .tarjeta-producto-individual-titulo{
+            color:$colorletracuerpo;
+            text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+            font-size: 35px;
+            font-weight: 800;
+        }
+    
+        .tarjeta-producto-individual-descripcion{
+            color:$colorletracuerpo;
+            font-size: 20px;
+    
+        }
+    
+        .tarjeta-producto-individual-botongrupo{
+            padding: 5%;
+            color:$colorletracuerpo;
+            .tarjeta-producto-individual-boton{
+                color:$colorletracuerpo;
+                margin:2%;
+                padding:2%;
+                font-size: 20px;
+                font-weight: 800;
+                border-radius: 4px;
+                border-color: $colorFondoNavbar;
+                &:hover{
+                    background-color: $colorFondoNavbar;
+                    color:$colorindexfondo;
+                }
+                
+                
+            }
+    
+        }
+    
+    
+    
+    }
+    
+
+}
+
+
+
+@media(min-width:768px){
+
+    
+.Tarjetas-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:$colorindexfondo;
+
+    .tarjeta-producto-individual{
+
+        width: 35%;
+        margin: 5%;
+        background-color:$colorfondotarjetaproducto;
+        font-family: $tipoletra;
+    
+     
+    
+        .tarjeta-producto-individual-titulo{
+            color:$colorletracuerpo;
+            text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+            font-size: 35px;
+            font-weight: 800;
+        }
+    
+        .tarjeta-producto-individual-descripcion{
+            color:$colorletracuerpo;
+            font-size: 20px;
+    
+        }
+    
+        .tarjeta-producto-individual-botongrupo{
+            padding: 5%;
+            color:$colorletracuerpo;
+            .tarjeta-producto-individual-boton{
+                color:$colorletracuerpo;
+                margin:2%;
+                padding:2%;
+                font-size: 20px;
+                font-weight: 800;
+                border-radius: 4px;
+                border-color: $colorFondoNavbar;
+                &:hover{
+                    background-color: $colorFondoNavbar;
+                    color:$colorindexfondo;
+                }
+                
+                
+            }
+    
+        }
+    
+    
+        .zoom{
+            transition: 1s;
+            &:hover{
+                transform: scale(1.4);
+            }
+        }
+    
+    }
+    
+    }
+    
+
+}
+

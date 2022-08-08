@@ -1,0 +1,40 @@
+.nosotros-introduccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: $colorindexfondo;
+    padding: 5%;
+
+    .nosotros-parrafo{
+        text-align: center;
+        width: 80%;
+        color:$colorFondoNavbar;
+        font-family: $tipoletra;
+        font-size: 18px;
+        padding: 2%;
+    }
+
+    .videosnotros{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        
+
+        .nosotros-video{
+            width: 80%;
+        }
+
+    }
+
+    .nosotros-img{
+        width: 60%;
+
+    }
+
+   
+
+
+
+}

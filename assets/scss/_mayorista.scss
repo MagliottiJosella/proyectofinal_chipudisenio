@@ -1,0 +1,219 @@
+
+.mayoristaformulario{
+
+    margin: 0%;
+    padding: 5%;
+    background-color: $colorindexfondo;
+    font-family: $tipoletra;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .formulario{
+        color:$colorletracuerpo;
+        text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+        font-size: 40px;
+
+    }
+
+    .tabla-carga{
+        width: 60%;
+        color:$colorFondoNavbar;
+        background-color: $colorfondotarjetaproducto;
+        padding: 5%;
+        margin: 2%;
+        .tabla-carga-datos{
+            color:$colorFondoNavbar;
+            text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+            font-size: 20px;
+
+        }
+    }
+
+
+    .mediosdepago{
+        display: flex;
+        flex-direction:column;
+        width: 50%;
+        background-color: $colorfondotarjetaproducto;
+        align-items: center;
+        align-content: center;
+
+        .mediosdepago-titulo{
+            color:$colorFondoNavbar;
+            text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+            font-size: 20px;
+           
+
+        }
+
+
+
+    }
+
+    .eleccionproductos{
+        width: 60%;
+        background-color: $colorfondotarjetaproducto;
+        padding: 5%;
+        margin:2%;
+        
+
+        .eleccionproductos-titulo{
+            color:$colorFondoNavbar;
+            text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+            font-size: 20px;
+           
+
+        }
+
+        .eleccionproductos-descripcion{
+
+            width: 90%;
+            color:$colorFondoNavbar;
+            font-size: 15px;
+
+
+        }
+
+        .btn-mayorista{
+            color:$colorletracuerpo;
+            margin:2%;
+            padding:2%;
+            font-size: 20px;
+            font-weight: 800;
+            border-radius: 4px;
+            border-color: $colorFondoNavbar;
+            &:hover{
+                background-color: $colorFondoNavbar;
+                color:$colorindexfondo;
+            }
+        }
+    }
+
+
+   
+
+
+
+
+    
+      
+    }
+
+
+    @media(min-width:768px){
+
+        
+.mayoristaformulario{
+
+    margin: 0%;
+    padding: 5%;
+    background-color: $colorindexfondo;
+    font-family: $tipoletra;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .formulario{
+        color:$colorletracuerpo;
+        text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+        font-size: 40px;
+
+    }
+
+    .tabla-carga{
+        width: 60%;
+        color:$colorFondoNavbar;
+        background-color: $colorfondotarjetaproducto;
+        padding: 5%;
+        margin: 2%;
+        .tabla-carga-datos{
+            color:$colorFondoNavbar;
+            text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+            font-size: 35px;
+
+        }
+    }
+
+
+    .mediosdepago{
+        display: flex;
+        flex-direction:column;
+        width: 50%;
+        background-color: $colorfondotarjetaproducto;
+        align-items: center;
+        align-content: center;
+
+        .mediosdepago-titulo{
+            color:$colorFondoNavbar;
+            text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+            font-size: 35px;
+           
+
+        }
+
+
+
+    }
+
+    .eleccionproductos{
+        width: 60%;
+        background-color: $colorfondotarjetaproducto;
+        padding: 5%;
+        margin:2%;
+        
+
+        .eleccionproductos-titulo{
+            color:$colorFondoNavbar;
+            text-shadow: 1px 1px 2px rgba(249, 246, 237, 0.974), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+            font-size: 30px;
+           
+
+        }
+
+        .eleccionproductos-descripcion{
+
+            width: 90%;
+            color:$colorFondoNavbar;
+
+
+        }
+
+        .btn-mayorista{
+            color:$colorletracuerpo;
+            margin:2%;
+            padding:2%;
+            font-size: 20px;
+            font-weight: 800;
+            border-radius: 4px;
+            border-color: $colorFondoNavbar;
+            &:hover{
+                background-color: $colorFondoNavbar;
+                color:$colorindexfondo;
+            }
+        }
+    }
+
+
+   
+
+
+
+
+    
+      
+    }
+    }
+
+
+ 
+
+
+
+
+
+
+
+
